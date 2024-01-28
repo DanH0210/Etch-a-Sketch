@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(to right top, rgb(241, 221, 177), rgb(254, 133, 103));
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    display: inline-block;
+    min-width: 500px;
+    /* background-color: antiquewhite; */
+    border: 1px solid black; 
+    background: linear-gradient(to right top, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+  
+}
+
+.custom-section {
+    padding: 15px 35px;
+    border-radius: 10px;
+    box-shadow: 4px 2px 2px rgba(0,0,0,0.3);
+    background: linear-gradient(to right top, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    backdrop-filter: blur(10px);
+}
+
+.square-form {
+    margin-bottom: 15px;
+}
+
+.custom-form {
+    display: none;
+    margin-bottom: 15px;
+}
+
+.shape-selection {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 4px 16px;
+    background: linear-gradient(to right top, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px black;
+}
+
+button:hover {
+    background-color: blueviolet;
+    color: white;
+}
